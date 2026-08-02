@@ -1,40 +1,289 @@
-Privacy Policy for Maizbhandari Shazra Sharif
-Effective Date: August 3, 2026
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Maizbhandari Shazra Sharif</title>
+    <style>
+        :root {
+            --primary-color: #1b4332;
+            --accent-color: #2d6a4f;
+            --bg-color: #faf9f6;
+            --card-bg: #ffffff;
+            --text-color: #2b2d42;
+            --text-muted: #6c757d;
+            --border-color: #e9ecef;
+            --radius: 12px;
+        }
 
-Last Updated: August 3, 2026
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-Luxury Applications ("we," "our," or "us") operates the Maizbhandari Shazra Sharif mobile application (the "App"). We respect your privacy and are committed to protecting it through our compliance with this policy.
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
 
-This Privacy Policy explains how information about you is collected, used, and disclosed when you use our App.
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 48px;
+            border-radius: var(--radius);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
 
-1. Information We Collect
-A. Information You Provide directly
-Maizbhandari Shazra Sharif is a reading and reference tool for religious texts and supplications.
-We do not require user registration, account creation, logins, or profiles.
-We do not collect personal details such as your name, email address, phone number, physical address, or contact lists.
-B. Automatically Collected Information & Advertising Data
-While we do not collect personal data directly, the App integrates third-party services (specifically Google AdMob) to serve advertisements. These third-party services may automatically collect certain technical data from your device, including:
-Device Identifiers: Mobile Advertising IDs (e.g., Apple IDFA or Google Advertising ID).
-Technical & Usage Data: IP address, device model, operating system version, mobile network provider, language settings, and app performance logs.
-Coarse Location Data: Approximate geographic location derived from your IP address to deliver relevant advertising.
-2. How We Use Information
-The technical data collected by our third-party ad partners is used solely to:
-Display and personalize advertisements within the App.
-Monitor ad performance, impressions, and prevent fraudulent ad clicks.
-Maintain and optimize the operational stability of the App.
-3. Third-Party Services & Ad Networks
-Our App uses third-party services that have their own privacy policies regarding how they handle your data:
-Google AdMob & Google Play Services: We use Google AdMob to display banner and interstitial ads. AdMob may use cookies, tracking pixels, or device identifiers to serve personalized ads based on your visit to this App and other applications.
-Learn how Google processes data: Google Privacy & Terms
-Learn about AdMob data collection: Google AdMob Data Disclosure
-4. Children’s Privacy
-Our App contains religious content suitable for general audiences of all ages (rated 4+ / Everyone).
-We do not knowingly collect personal identifiable information from children under 13 (or under 16 in certain legal jurisdictions).
-If you are a parent or guardian and believe that a child has provided us with personal information, please contact us so that we can take necessary actions.
-5. Data Security
-We do not store any personal user data on external cloud servers or local storage databases. Any interaction data handled by our third-party ad providers (Google) is protected using standard industry encryption and security practices.
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
 
-6. Your Data Rights & Choices
+        .brand-badge {
+            display: inline-block;
+            background-color: #e8f5e9;
+            color: var(--primary-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .meta-info {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .meta-info span {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .intro {
+            font-size: 1.05rem;
+            color: #4a5568;
+            margin-bottom: 32px;
+            padding-left: 16px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        section {
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        h3 {
+            color: var(--accent-color);
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin: 16px 0 8px 0;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: #334155;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 16px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 8px;
+            color: #334155;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 8px;
+            top: -2px;
+        }
+
+        .highlight-box {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <span class="brand-badge">Luxury Applications</span>
+            <h1>Privacy Policy</h1>
+            <p style="font-size: 1.1rem; color: var(--accent-color); font-weight: 600; margin-bottom: 10px;">Maizbhandari Shazra Sharif</p>
+            <div class="meta-info">
+                <span><strong>Effective Date:</strong> August 3, 2026</span>
+                <span>•</span>
+                <span><strong>Last Updated:</strong> August 3, 2026</span>
+            </div>
+        </header>
+
+        <div class="intro">
+            <p><strong>Luxury Applications</strong> ("we," "our," or "us") operates the <strong>Maizbhandari Shazra Sharif</strong> mobile application (the "App"). We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
+            <p>This Privacy Policy explains how information about you is collected, used, and disclosed when you use our App.</p>
+        </div>
+
+        <section>
+            <h2>1. Information We Collect</h2>
+            
+            <div class="highlight-box">
+                <h3>A. Information You Provide Directly</h3>
+                <p><strong>Maizbhandari Shazra Sharif</strong> is a reading and reference tool for religious texts and supplications.</p>
+                <ul>
+                    <li>We <strong>do not</strong> require user registration, account creation, logins, or profiles.</li>
+                    <li>We <strong>do not</strong> collect personal details such as your name, email address, phone number, physical address, or contact lists.</li>
+                </ul>
+            </div>
+
+            <h3>B. Automatically Collected Information & Advertising Data</h3>
+            <p>While we do not collect personal data directly, the App integrates third-party services (specifically <strong>Google AdMob</strong>) to serve advertisements. These third-party services may automatically collect certain technical data from your device, including:</p>
+            <ul>
+                <li><strong>Device Identifiers:</strong> Mobile Advertising IDs (e.g., Apple IDFA or Google Advertising ID).</li>
+                <li><strong>Technical & Usage Data:</strong> IP address, device model, operating system version, mobile network provider, language settings, and app performance logs.</li>
+                <li><strong>Coarse Location Data:</strong> Approximate geographic location derived from your IP address to deliver relevant advertising.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. How We Use Information</h2>
+            <p>The technical data collected by our third-party ad partners is used solely to:</p>
+            <ul>
+                <li>Display and personalize advertisements within the App.</li>
+                <li>Monitor ad performance, impressions, and prevent fraudulent ad clicks.</li>
+                <li>Maintain and optimize the operational stability of the App.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Third-Party Services & Ad Networks</h2>
+            <p>Our App uses third-party services that have their own privacy policies regarding how they handle your data:</p>
+            <ul>
+                <li>
+                    <strong>Google AdMob & Google Play Services:</strong> We use Google AdMob to display banner and interstitial ads. AdMob may use cookies, tracking pixels, or device identifiers to serve personalized ads based on your visit to this App and other applications.
+                    <br>
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Learn how Google processes data: Google Privacy & Terms</a><br>
+                    <a href="https://support.google.com/admob/answer/7686468" target="_blank" rel="noopener">Learn about AdMob data collection: Google AdMob Data Disclosure</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Children’s Privacy</h2>
+            <p>Our App contains religious content suitable for general audiences of all ages (rated 4+ / Everyone).</p>
+            <ul>
+                <li>We do not knowingly collect personal identifiable information from children under 13 (or under 16 in certain legal jurisdictions).</li>
+                <li>If you are a parent or guardian and believe that a child has provided us with personal information, please contact us so that we can take necessary actions.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Data Security</h2>
+            <p>We do not store any personal user data on external cloud servers or local storage databases. Any interaction data handled by our third-party ad providers (Google) is protected using standard industry encryption and security practices.</p>
+        </section>
+
+        <section>
+            <h2>6. Your Data Rights & Choices</h2>
+            <p>Depending on your device and operating system, you have options to manage how data is used for advertising:</p>
+            <ul>
+                <li><strong>iOS Devices:</strong> You can disable tracking or reset your Advertising Identifier under <code>Settings > Privacy & Security > Tracking</code> or <code>Settings > Privacy & Security > Apple Advertising</code>.</li>
+                <li><strong>Android Devices:</strong> You can opt out of personalized ads or reset your Advertising ID under <code>Settings > Google > Ads</code>.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Any updates will be posted on this page with a revised "Effective Date." We encourage you to review this Privacy Policy periodically for any updates.</p>
+        </section>
+
+        <section>
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions, concerns, or feedback regarding this Privacy Policy, please contact us at:</p>
+            <div class="highlight-box">
+                <p style="margin-bottom: 4px;"><strong>Developer/Publisher:</strong> Luxury Applications</p>
+                <p style="margin-bottom: 0;"><strong>Email:</strong> <a href="mailto:luxury.apps.inc@gmail.com">luxury.apps.inc@gmail.com</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2022 Luxury Applications. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>6. Your Data Rights & Choices
 Depending on your device and operating system, you have options to manage how data is used for advertising:
 iOS Devices: You can disable tracking or reset your Advertising Identifier under Settings > Privacy & Security > Tracking or Settings > Privacy & Security > Apple Advertising.
 Android Devices: You can opt out of personalized ads or reset your Advertising ID under Settings > Google > Ads.
